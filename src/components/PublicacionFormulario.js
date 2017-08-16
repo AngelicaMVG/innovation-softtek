@@ -23,12 +23,11 @@ export default class PublicacionFormulario extends React.Component {
             </div>
             <div className="input-field col s10 offset-s1">
               <p className="center bold margin0">Descripción</p>
-              <textarea id="textarea1" className="materialize-textarea"></textarea>
+              <input id="descripcion" className=""/>
             </div>
             <Row className="col s5 offset-s1">
-              <p className="center bold margin0">Idea</p>
-              <Input s={10} type='select'>
-                <option value='0'>Selecciona una opción</option>
+              <Input s={10} type='select' id="select-idea">
+                <option value='0'>Idea</option>
                 <option value='1'>Aplicación</option>
                 <option value='2'>POC</option>
                 <option value='3'>Microservicio</option>
@@ -36,9 +35,8 @@ export default class PublicacionFormulario extends React.Component {
               </Input>
             </Row>
             <Row className="col s5 offset-s1">
-              <p className="center bold margin0">Necesidad</p>
-              <Input s={10} type='select'>
-                <option value='0'>Selecciona una opción</option>
+              <Input s={10} type='select' id="select-necesidad">
+                <option value='0'>Necesidad</option>
                 <option value='1'>Aplicación</option>
                 <option value='2'>POC</option>
                 <option value='3'>Microservicio</option>
@@ -46,7 +44,7 @@ export default class PublicacionFormulario extends React.Component {
               </Input>
             </Row>
             <div className="input-field col s10 offset-s1">
-              <p className="center bold margin0">Etiquetas (Agrega una etiqueta y presiona 'enter')</p>
+              <p className="center bold">Etiquetas (Agrega una etiqueta y presiona 'enter')</p>
               <input id="etiquetas" type="text" className="validate" />
             </div>
             <div className="file-field input-field col s10 offset-s1">

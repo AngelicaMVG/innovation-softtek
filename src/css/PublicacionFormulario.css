@@ -5,3 +5,9 @@
 .margin0{
   margin: 0;
 }
+
+#titulo, #descripcion, #etiquetas, #select-idea, #select-necesidad{
+  margin: 0;
+  padding: 0;
+  height: 2vh;
+}

@@ -9,11 +9,11 @@ export default class CrearReto extends React.Component {
           <form className="col s12 " >
             <div className="input-field col s10 offset-s1">
               <p className="center bold margin0">Título del reto</p>
-              <input id="crearReto" type="text" className="validate" />
+              <input id="crear-reto" type="text" className="validate" />
             </div>
             <div className="input-field col s10 offset-s1">
               <p className="center bold margin0">Acerca de qué es tu reto?</p>
-              <textarea id="reto-textarea" className="materialize-textarea"></textarea>
+              <input id="reto-descripcion" className=""/>
             </div>
           </form>
         </div>

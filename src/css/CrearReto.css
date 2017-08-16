@@ -1,3 +1,9 @@
 .bold {
   font-weight: bold;
 }
+
+#crear-reto, #reto-descripcion {
+  margin: 0;
+  padding: 0;
+  height: 2vh;
+}
