@@ -4,7 +4,6 @@ import {Row, Col, Icon, Input} from 'react-materialize';
 import logo from '../softtek.png'
 import '../css/NavPrincipal.css';
 
-
 export default class PagInicio extends Component {
   render() {
     return (
