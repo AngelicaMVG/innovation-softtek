@@ -8,14 +8,12 @@ export default class ComentarioFormulario extends Component{
 		this.state={
 			comentario:""
 		};
-
 	}
 	handleSubmit(e){
 		e.preventDefault();
 		const comentario = this.state.comentario;
 		this.props.agregarComentario(comentario)
 	}
-
 	updateState = (e)=>{
 		const comentario = e.target.value;
     console.log(comentario);
