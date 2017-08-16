@@ -1,3 +1,7 @@
+.foto-perfil, .icon, .icon-comment {
+  margin-top: 3vh;
+}
+
 .nav--height {
   height: 15vh;
   position: fixed;
@@ -9,33 +13,32 @@
 }
 
 .foto-perfil {
-  margin-top: 25%;
-  width: 70%;
-  border-radius: 100%;
+  width: 10vh;
+  border-radius: 10vh;
 }
 
 .img-logo {
-  margin-top: 5%;
-  width: 40%;
+  margin-top: 2vh;
+  width: 20vh;
 }
 
 input {
-  margin-top: 15% !important;
+  margin-top: 3vh !important;
 }
 
-
 .icon {
-  margin-left: 40%;
-  margin-top: 25% !important;
+  margin-left: 3vw;
 }
 
 .icon-comment {
-  margin-left: 80%;
-  margin-top: 25% !important;
+  margin-left: 5.5vw;
 }
 
 .btn-verde{
   background: #28C67D;
-  margin-top: 40%;
-  margin-left: 30%;
+}
+
+.btn-verde-nav {
+  margin-left: 2vw;
+  margin-top: 5vh;
 }
