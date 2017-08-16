@@ -8,8 +8,8 @@ export default class TarjetaDescripcion extends Component {
     return (
       <div className='col s12'>
         <Row>
-            <h2 id='tituloIdea' className='col s4'>Innotek</h2>
-            <a href='#' id='editar' className='col s2 offset-1'>Editar Idea</a>
+            <h3 id='tituloIdea' className='col s3'>Innotek</h3>
+            <a href='#' id='editar' className='col s2 offset-1 cyan-text'>Editar Idea</a>
             <Button waves='light' className='red col s3 offset-s2 right'>MICROSERVICIOS</Button>
         </Row>
         <Row>

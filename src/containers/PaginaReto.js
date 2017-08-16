@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import TarjetaDescripcion from '../components/TarjetaDescripcion';
 import ContenedorComentario from './ContenedorComentario';
-import {Col,Row} from 'react-materialize';
+import '../css/PaginaUsuario.css'
+import {Row} from 'react-materialize';
 import NavPrincipal from '../components/NavPrincipal';
 import Collapsible from './Collapsible';
 
@@ -12,10 +13,10 @@ export default class PaginaReto extends Component {
       <NavPrincipal />
       <Row>
 
-      	<Col s={10} offset='s1' className='grid-example'>
+      	<div className='col s10 offset-s1 espacioSuperior'>
             <TarjetaDescripcion />
             <Collapsible />
-        </Col>
+        </div>
 
 
       </Row>

@@ -1,6 +1,10 @@
 .btn-tarjeta-reto {
   padding: 0 10%;
-  border: solid 2px #54A4D1;
-  color: #54A4D1;
+  border: solid 2px #2bbbad;
+  color: #2bbbad;
   background-color: white;
+}
+
+.btn-tarjeta-reto:hover{
+    color: white;
 }
