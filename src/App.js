@@ -22,7 +22,7 @@ class App extends Component {
         <Route  path ='/paginaUsuario' component={PaginaUsuario}/>
       </div>
     </Router>
-        
+
       </div>
     )
   }
