@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import ContenidoDetalle from '../components/ContenidoDetalle';
 import AnalyticsLikes from './AnalyticsLikes';
 import AnalyticsMap from './AnalyticsMap';
+import ImgDetalle from './ImgDetalle';
 import "../css/PaginaDetalle.css";
 
 export default class PaginaDetalle extends Component {
@@ -51,6 +52,7 @@ export default class PaginaDetalle extends Component {
               <Route path="/pantallaDetalle/detalle" component={ContenidoDetalle}/>
               <Route path="/pantallaDetalle/grafica" component={AnalyticsLikes}/>
               <Route path="/pantallaDetalle/mapa" component={AnalyticsMap}/>
+              <Route path="/pantallaDetalle/archivosAdjuntos" component={ImgDetalle}/>
             </Switch>
           </Col>
           <Col m={3} className="margenTopDetalle">
