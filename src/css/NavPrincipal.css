@@ -5,7 +5,7 @@
 }
 
 .col-margin {
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 .foto-perfil {
@@ -38,4 +38,32 @@ input {
   background: #28C67D;
   margin-top: 40%;
   margin-left: 30%;
+}
+
+.btn-signUp-verde {
+  background: #28C67D;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+
+.signIn {
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+.contenedor {
+  overflow-y: hidden;
+  background-image: url('https://cdn2.hubspot.net/hubfs/79620/default_social_image.png');
+  height: 620px;
+  margin-top: -2%;
+  margin-left: -5%;
+}
+
+.form-inicio {
+  position: absolute;
+  top: 20%;
+  margin-left: 78% !important;
+  height: 75%;
+  background-color: rgba(150, 146, 145, 0.64);
 }
