@@ -22,9 +22,9 @@ export default class Home extends Component {
           </Col>
           <Col m={10} className='col-margin'>
             <Switch>
-              <Route path="/home/ideas" component={ContenedorIdeas}/>
-              <Route path="/home/necesidades" component={ContenedorNecesidades}/>
-              <Route path="/home/retos" component={ContenedorRetos}/>
+              <Route path={process.env.PUBLIC_URL + "/home/ideas"} component={ContenedorIdeas}/>
+              <Route path={process.env.PUBLIC_URL + "/home/necesidades"} component={ContenedorNecesidades}/>
+              <Route path={process.env.PUBLIC_URL + "/home/retos"} component={ContenedorRetos}/>
             </Switch>
           </Col>
           <Col m={1}>
