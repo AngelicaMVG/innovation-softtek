@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "^4.2.0",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
@@ -13,6 +14,8 @@
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -26,5 +29,5 @@
     "type": "git",
     "url": "git+"
   },
-  "homepage": ""
+  "homepage": "https://angelicamvg.github.io/innovation-softtek/"
 }
