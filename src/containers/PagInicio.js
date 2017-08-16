@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import {Row, Col, Icon, Input} from 'react-materialize';
 import logo from '../softtek.png'
 import '../css/NavPrincipal.css';
-import $ from 'jquery';
 
 export default class PagInicio extends Component {
   render() {
