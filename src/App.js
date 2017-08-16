@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <Router>
       <div>
-        <Route exact path ='/' component={PagInicio}/>
+        <Route exact path ={process.env.PUBLIC_URL + '/'} component={PagInicio}/>
         <Route  path ='/home' component={Home}/>
         <Route  path ='/pantallaDetalle' component={PaginaDetalle}/>
         <Route  path ='/paginaReto' component={PaginaReto}/>
