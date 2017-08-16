@@ -17,7 +17,7 @@ export default class NavDetalle extends Component {
                             <li className="espacio center"><Link to="/pantallaDetalle/detalle"><Icon medium>web</Icon></Link></li>
                             <li className="espacio center"><Link to="/pantallaDetalle/grafica"><Icon medium>equalizer</Icon></Link></li>
                             <li className="espacio center"><Link to="/mapa"><Icon medium>public</Icon></Link></li>
-                            <li className="espacio center"><a href="#"><Icon medium>attach_file</Icon></a></li>
+                            <li className="espacio center"><Link to="/pantallaDetalle/imgDetalle"><Icon medium>attach_file</Icon></Link></li>
                         </ul>
                     </div>
                 </div>
