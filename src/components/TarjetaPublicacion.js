@@ -40,18 +40,18 @@ export default class TarjetaPublicacion extends Component {
         </Row>
         <Row>
           <Col m={12}>
-            <Chip><Link className="black-text" to="/paginaTag" >React</Link></Chip>
+            <Chip><Link className="black-text" to="/paginaTag" >Excel</Link></Chip>
           </Col>
         </Row>
         <Row>
           <Col m={3}>
-            <i className='material-icons'>comment</i><span class="new badge">0</span>
+            <i className='material-icons'>comment</i><span class="new badge">{this.props.commernt}</span>
           </Col>
           <Col m={3}>
-            <i className='material-icons red-text'>favorite_border</i><span class="new badge">1</span>
+            <i className='material-icons red-text'>favorite_border</i><span class="new badge">{this.props.like}</span>
           </Col>
           <Col m={3}>
-            <i className='material-icons blue-text'>attachment</i><span class="new badge">0</span>
+            <i className='material-icons blue-text'>attachment</i><span class="new badge">{this.props.clip}</span>
           </Col>
         </Row>
       </Card>
