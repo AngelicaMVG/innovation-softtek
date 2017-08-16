@@ -5,7 +5,7 @@ export default class NavUsuarios extends React.Component {
   render(){
     return(
       <div id="sidebar-navUsuarios" role="navigation">
-        <div id="sidebar-nav-navUsuarios">
+        <div id="sidebar-nav-navUsuarios" className="center">
           <ul className="">
             <li className="bordeUsuario">
               <a>

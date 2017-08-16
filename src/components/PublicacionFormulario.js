@@ -1,6 +1,8 @@
 import React from "react";
 import {Row, Input} from 'react-materialize'
 import "../css/PublicacionFormulario.css";
+import "../css/NavPrincipal.css";
+
 
 export default class PublicacionFormulario extends React.Component {
   render(){
@@ -10,45 +12,45 @@ export default class PublicacionFormulario extends React.Component {
           <form >
             <div className="switch bold col s4 offset-s8">
               <label>
-              Make private idea
+              Hacer una idea privada
               <input type="checkbox" />
               <span className="lever"></span>
               </label>
             </div>
             <div className="input-field col s10 offset-s1">
-              <p className="center bold margin0">Title</p>
-              <input id="last_name" type="text" className="validate" />
+              <p className="center bold margin0">Título</p>
+              <input id="titulo" type="text" className="validate" />
             </div>
             <div className="input-field col s10 offset-s1">
-              <p className="center bold margin0">Description</p>
+              <p className="center bold margin0">Descripción</p>
               <textarea id="textarea1" className="materialize-textarea"></textarea>
             </div>
             <Row className="col s5 offset-s1">
               <p className="center bold margin0">Idea</p>
               <Input s={10} type='select'>
-                <option value='0'>Select</option>
-                <option value='1'>Application</option>
+                <option value='0'>Selecciona una opción</option>
+                <option value='1'>Aplicación</option>
                 <option value='2'>POC</option>
-                <option value='3'>Microservice</option>
-                <option value='4'>Other</option>
+                <option value='3'>Microservicio</option>
+                <option value='4'>Otro</option>
               </Input>
             </Row>
             <Row className="col s5 offset-s1">
-              <p className="center bold margin0">Need</p>
+              <p className="center bold margin0">Necesidad</p>
               <Input s={10} type='select'>
-                <option value='0'>Select</option>
-                <option value='1'>Application</option>
+                <option value='0'>Selecciona una opción</option>
+                <option value='1'>Aplicación</option>
                 <option value='2'>POC</option>
-                <option value='3'>Microservice</option>
-                <option value='4'>Other</option>
+                <option value='3'>Microservicio</option>
+                <option value='4'>Otro</option>
               </Input>
             </Row>
             <div className="input-field col s10 offset-s1">
-              <p className="center bold margin0">Tags (Enter tag and press enter)</p>
-              <input id="last_name" type="text" className="validate" />
+              <p className="center bold margin0">Etiquetas (Agrega una etiqueta y presiona 'enter')</p>
+              <input id="etiquetas" type="text" className="validate" />
             </div>
-            <div className="file-field input-field col s5 offset-s1">
-              <div className="btn">
+            <div className="file-field input-field col s10 offset-s1">
+              <div className="btn btn-verde">
                 <span>Elegir archivos</span>
                 <input type="file" />
               </div>
@@ -59,7 +61,6 @@ export default class PublicacionFormulario extends React.Component {
           </form>
         </div>
       </div>
-
     );
   }
 }

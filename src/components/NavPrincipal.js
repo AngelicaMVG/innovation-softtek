@@ -22,15 +22,15 @@ export default class NavPrincipal extends Component {
             <input type="search"/>
           </Col>
           <Col s={1}>
-            <Modal header='Create a Challenge' trigger={< a  className=' btn btn-verde' >Reto< /a>}>
+            <Modal header='Crear un reto' trigger={< a  className=' btn btn-verde btn-verde-nav' >Reto< /a>}>
               <CrearReto />
-              <button className="col s3 offset-s9 blue">Save Changes</button>
+              <button className="btn btn-verde col s3">Guardar cambios</button>
             </Modal>
           </Col>
           <Col s={1}>
-            <Modal header='Idea' trigger={< a  className='grey-text' ><i className='material-icons icon-comment'>comment</i>< /a>}>
+            <Modal header='Crear una idea' trigger={< a  className='grey-text' ><i className='material-icons icon-comment'>comment</i>< /a>}>
               <PublicacionFormulario/>
-              <button className="col s3 offset-s9 blue">Guardar Cambios</button>
+              <button className="col s3 btn btn-verde">Guardar Cambios</button>
             </Modal>
           </Col>
           <Col s={1}>
