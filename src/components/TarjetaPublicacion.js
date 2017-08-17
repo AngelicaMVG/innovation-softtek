@@ -40,7 +40,7 @@ export default class TarjetaPublicacion extends Component {
         </Row>
         <Row>
           <Col m={12}>
-            <Chip><Link className="black-text" to="/paginaTag" >Excel</Link></Chip>
+            <Chip><Link className="black-text" to={process.env.PUBLIC_URL + "/paginaTag"} >Excel</Link></Chip>
           </Col>
         </Row>
         <Row>

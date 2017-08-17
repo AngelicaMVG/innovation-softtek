@@ -23,24 +23,24 @@ export default class PaginaDetalle extends Component {
               <div className="sidebar_nav_detalle">
                 <ul className="nav nav-stacked espacioNav">
                   <li className="espacio center">
-                    <a href="/pantallaDetalle/detalle">
+                    <Link to={process.env.PUBLIC_URL + "/pantallaDetalle/detalle"}>
                       <Icon medium>web</Icon>
-                    </a>
+                    </Link>
                   </li>
                   <li className="espacio center">
-                    <a href="/pantallaDetalle/grafica">
+                    <Link to={process.env.PUBLIC_URL + "/pantallaDetalle/grafica"}>
                       <Icon medium>equalizer</Icon>
-                    </a>
+                    </Link>
                   </li>
                   <li className="espacio center">
-                    <a href="/pantallaDetalle/mapa">
+                    <Link to={process.env.PUBLIC_URL + "/pantallaDetalle/mapa"}>
                       <Icon medium>public</Icon>
-                    </a>
+                    </Link>
                   </li>
                   <li className="espacio center">
-                    <a href="/pantallaDetalle/archivosAdjuntos">
+                    <Link to={process.env.PUBLIC_URL + "/pantallaDetalle/archivosAdjuntos"}>
                       <Icon medium>attach_file</Icon>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

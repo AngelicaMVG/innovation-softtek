@@ -37,7 +37,7 @@ export default class NavPrincipal extends Component {
             <i className='material-icons icon'>notifications</i>
           </Col>
           <Col s={1}>
-            <Link to='/paginaUsuario'><img className='foto-perfil responsive-img' src="https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png" alt=""/></Link>
+            <Link to={process.env.PUBLIC_URL + '/paginaUsuario'}><img className='foto-perfil responsive-img' src="https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png" alt=""/></Link>
           </Col>
         </Row>
       </nav>
