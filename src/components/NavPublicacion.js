@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/NavPublicacion.css';
 
 export default class NavPublicacion extends Component {
@@ -7,9 +8,9 @@ export default class NavPublicacion extends Component {
             <div id="sidebar-publicacion" role="navigation">
                 <div id="sidebar-nav-publicacion">
                     <ul className="nav nav-stacked">
-                        <li className="texto-vertical espacioPorElemento1"><a href="/home/ideas" className="fontSize">Idea</a></li>
-                        <li className="texto-vertical espacioPorElemento"><a href="/home/necesidades" className="fontSize">Necesidad</a></li>
-                        <li className="texto-vertical espacioPorElemento"><a href="/home/retos" className="fontSize"> Reto</a></li>
+                        <li className="texto-vertical espacioPorElemento1"><Link to="/home/ideas" className="fontSize">Idea</Link></li>
+                        <li className="texto-vertical espacioPorElemento"><Link to="/home/necesidades" className="fontSize">Necesidad</Link></li>
+                        <li className="texto-vertical espacioPorElemento"><Link to="/home/retos" className="fontSize"> Reto</Link></li>
                     </ul>
                 </div>
             </div>
