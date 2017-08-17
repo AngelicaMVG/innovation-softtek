@@ -49,10 +49,10 @@ export default class PaginaDetalle extends Component {
           </Col>
           <Col m={8} className="margenTopDetalle">
             <Switch>
-              <Route path="/pantallaDetalle/detalle" component={ContenidoDetalle}/>
-              <Route path="/pantallaDetalle/grafica" component={AnalyticsLikes}/>
-              <Route path="/pantallaDetalle/mapa" component={AnalyticsMap}/>
-              <Route path="/pantallaDetalle/archivosAdjuntos" component={ImgDetalle}/>
+              <Route path={process.env.PUBLIC_URL + "/pantallaDetalle/detalle"} component={ContenidoDetalle}/>
+              <Route path={process.env.PUBLIC_URL + "/pantallaDetalle/grafica"} component={AnalyticsLikes}/>
+              <Route path={process.env.PUBLIC_URL + "/pantallaDetalle/mapa"} component={AnalyticsMap}/>
+              <Route path={process.env.PUBLIC_URL + "/pantallaDetalle/archivosAdjuntos"} component={ImgDetalle}/>
             </Switch>
           </Col>
           <Col m={3} className="margenTopDetalle">

@@ -10,10 +10,10 @@ export default class EnlacesDetalle extends Component {
         return(
             <Router>
                 <div>
-                    <Route path="/detalles" exact component={ContenidoDetalle}/>
-                    <Route path="/grafica" component={AnalyticsLikes}/>
-                    <Route path="/mapa" component={AnalyticsMap}/>
-                    <Route path="/archivosAdjuntos" component={imgDetalle}/>
+                    <Route path={process.env.PUBLIC_URL + "/detalles"} exact component={ContenidoDetalle}/>
+                    <Route path={process.env.PUBLIC_URL + "/grafica"} component={AnalyticsLikes}/>
+                    <Route path={process.env.PUBLIC_URL + "/mapa"} component={AnalyticsMap}/>
+                    <Route path={process.env.PUBLIC_URL + "/archivosAdjuntos"} component={imgDetalle}/>
                 </div>
             </Router>
         )
