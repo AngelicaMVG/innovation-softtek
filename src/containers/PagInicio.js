@@ -31,7 +31,7 @@ export default class PagInicio extends Component {
                 <Input id='contrasena' s={12} label="Contraseña" validate type='password'>
                   <Icon>lock_outline</Icon>
                 </Input>
-                <Link to='/home/ideas'>
+                <Link to={process.env.PUBLIC_URL + '/home/ideas'}>
                   <a id='submit' type="submit" className='btn btn-signUp-verde'>Iniciar Sesión</a>
                 </Link>
               </Row>
