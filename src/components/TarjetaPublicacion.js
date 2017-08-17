@@ -14,7 +14,7 @@ export default class TarjetaPublicacion extends Component {
 
   }
     return (
-      <Card actions={[<Link to='/pantallaDetalle/detalle'><a href='../pantallaDetalle/detalle'>Ver mas ...</a></Link>]}>
+      <Card actions={[<Link to={process.env.PUBLIC_URL + '/pantallaDetalle/detalle'}><a href='../pantallaDetalle/detalle'>Ver mas ...</a></Link>]}>
         <Row>
           <Col m={12}>
             <h4>{this.props.titulo}</h4>

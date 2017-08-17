@@ -14,10 +14,10 @@ export default class NavDetalle extends Component {
                 <div className="sidebarDetalle" role="navigation">
                     <div className="sidebar_nav_detalle">
                         <ul className="nav nav-stacked espacioNav">
-                            <li className="espacio center"><Link to="/pantallaDetalle/detalle"><Icon medium>web</Icon></Link></li>
-                            <li className="espacio center"><Link to="/pantallaDetalle/grafica"><Icon medium>equalizer</Icon></Link></li>
-                            <li className="espacio center"><Link to="/mapa"><Icon medium>public</Icon></Link></li>
-                            <li className="espacio center"><Link to="/pantallaDetalle/imgDetalle"><Icon medium>attach_file</Icon></Link></li>
+                            <li className="espacio center"><Link to={process.env.PUBLIC_URL + "/pantallaDetalle/detalle"}><Icon medium>web</Icon></Link></li>
+                            <li className="espacio center"><Link to={process.env.PUBLIC_URL + "/pantallaDetalle/grafica"}><Icon medium>equalizer</Icon></Link></li>
+                            <li className="espacio center"><Link to={process.env.PUBLIC_URL + "/mapa"}><Icon medium>public</Icon></Link></li>
+                            <li className="espacio center"><Link to={process.env.PUBLIC_URL + "/pantallaDetalle/imgDetalle"}><Icon medium>attach_file</Icon></Link></li>
                         </ul>
                     </div>
                 </div>
