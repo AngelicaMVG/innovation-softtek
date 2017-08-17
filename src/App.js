@@ -15,11 +15,11 @@ class App extends Component {
         <Router>
       <div>
         <Route exact path ={process.env.PUBLIC_URL + '/'} component={PagInicio}/>
-        <Route  path ='/home' component={Home}/>
-        <Route  path ='/pantallaDetalle' component={PaginaDetalle}/>
-        <Route  path ='/paginaReto' component={PaginaReto}/>
-        <Route  path ='/paginaTag' component={PaginaTag}/>
-        <Route  path ='/paginaUsuario' component={PaginaUsuario}/>
+        <Route  path ={process.env.PUBLIC_URL + '/home'} component={Home}/>
+        <Route  path ={process.env.PUBLIC_URL + '/pantallaDetalle'} component={PaginaDetalle}/>
+        <Route  path ={process.env.PUBLIC_URL + '/paginaReto'} component={PaginaReto}/>
+        <Route  path ={process.env.PUBLIC_URL + '/paginaTag'} component={PaginaTag}/>
+        <Route  path ={process.env.PUBLIC_URL + '/paginaUsuario'} component={PaginaUsuario}/>
       </div>
     </Router>
 
