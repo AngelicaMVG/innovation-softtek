@@ -15,7 +15,7 @@ export default class TarjetaDescripcion extends Component {
         <Row>
            <p id='fechaPublicacion' className="col s5">Creado en Julio 02 2015 por <b id='usuario'>Gilberto Antonio</b></p>
             <Button waves='light' className='green col s2 offset-s2'>Seguir</Button>
-            <Button waves='light' className='green col s2 offset-s1'>Unirse</Button> 
+            <Button waves='light' className='green col s2 offset-s1'>Unirse</Button>
         </Row>
         <img src={ImagenDetalle} alt="" className="responsive-img"/>
         <p>Aplicacion en la que se puedan proponer ideas de mejora de productos o procesos internos. Otros usuarios califican y comentan la propuesta antes de aprobarla. Se muestran reportes con gráficas.</p>
@@ -24,7 +24,7 @@ export default class TarjetaDescripcion extends Component {
           <div className="col s12">
             <Icon>local_offer</Icon>
             <Chip>Aplicacion</Chip>
-            <Chip><Link className="black-text" to="/paginaTag" >React</Link></Chip>
+            <Chip><Link className="black-text" to={process.env.PUBLIC_URL + "/paginaTag"} >React</Link></Chip>
             <Chip>Propuesta</Chip>
             <Chip>Innovation</Chip>
           </div>
@@ -33,5 +33,3 @@ export default class TarjetaDescripcion extends Component {
     );
   }
 }
-
-

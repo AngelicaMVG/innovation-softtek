@@ -13,7 +13,7 @@ export default class NavPrincipal extends Component {
       <nav className='nav--height'>
         <Row className="nav-wrapper white grey-text">
           <Col s={1}>
-          <Link className='brand-logo ' to="/home/ideas"><img className='img-logo' src={logo} alt=""/></Link>
+          <Link className='brand-logo ' to={process.env.PUBLIC_URL +"/home/ideas"}><img className='img-logo' src={logo} alt=""/></Link>
           </Col>
           <Col s={1} offset='s4'>
             <i className='material-icons icon'>search</i>
